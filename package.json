@@ -13,12 +13,16 @@
   ],
   "devDependencies": {
     "@commitlint/cli": ">=10",
+    "lerna": "^4.0.0",
     "standard-version": ">=9"
   },
   "commitlint": {
     "extends": [
       "@feryardiant/commitlint-config"
     ]
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   },
   "standard-version": {}
 }
