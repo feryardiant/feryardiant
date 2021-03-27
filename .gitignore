@@ -23,9 +23,7 @@ nbproject
 # Developments
 # --------------------------
 node_modules
-.php-version
-clover.xml
-lcov.info
+yarn.lock
 
 # But Keep these
 # --------------------------
