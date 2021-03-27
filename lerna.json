@@ -6,7 +6,8 @@
     "publish": {
       "bump": "patch",
       "conventionalCommits": true,
-      "message": "chore(release): Publish"
+      "message": "chore(release): Publish",
+      "registry": "https://npm.pkg.github.com"
     }
   },
   "packages": [
