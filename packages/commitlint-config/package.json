@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/commitlint-config",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "My personal commitlint config based on @commitlint/config-conventional",
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "license": "MIT",
@@ -13,6 +13,7 @@
     "url": "https://github.com/feryardiant/feryardiant/issues"
   },
   "homepage": "https://github.com/feryardiant/feryardiant#readme",
+  "readme": "https://github.com/feryardiant/feryardiant/tree/master/packages/commitlint-config#readme",
   "main": "commitlint.config.js",
   "files": [
     "commitlint.config.js"
