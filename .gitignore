@@ -1,0 +1,30 @@
+# Generic
+# --------------------------
+Thumbs.db
+Desktop.ini
+.directory
+*.cache
+*.old
+*.log
+*.tmp
+*.zip
+._
+*~
+
+# IDE Project Configurations
+# --------------------------
+nbproject
+.idea
+.settings
+.vscode
+.project
+*.sublime-*
+
+# Developments
+# --------------------------
+node_modules
+yarn.lock
+
+# But Keep these
+# --------------------------
+!.gitkeep

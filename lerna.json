@@ -1,0 +1,17 @@
+{
+  "command": {
+    "create": {
+      "license": "MIT"
+    },
+    "publish": {
+      "bump": "patch",
+      "conventionalCommits": true,
+      "message": "chore(release): Publish"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent"
+}

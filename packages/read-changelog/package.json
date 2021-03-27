@@ -1,0 +1,39 @@
+{
+  "name": "@feryardiant/read-changelog",
+  "version": "0.1.12",
+  "description": "Fetch latest release note from CHANGELOG.md file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feryardiant/feryardiant.git",
+    "directory": "packages/read-changelog"
+  },
+  "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feryardiant/feryardiant/issues"
+  },
+  "homepage": "https://github.com/feryardiant/feryardiant#readme",
+  "main": "index.js",
+  "bin": {
+    "read-changelog": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "scripts": {
+    "release": "standard-version -s"
+  },
+  "devDependencies": {
+    "@commitlint/cli": ">=10",
+    "@feryardiant/commitlint-config": "~0.0.5",
+    "standard-version": "^9.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@feryardiant/commitlint-config"
+    ]
+  },
+  "standard-version": {},
+  "gitHead": "332c2cf9f84cb6407e3ffaf464c714b843d2e8d7"
+}

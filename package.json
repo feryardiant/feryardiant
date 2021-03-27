@@ -1,0 +1,25 @@
+{
+  "name": "@feryardiant/readme",
+  "private": true,
+  "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
+  "scripts": {
+    "publish:packages": "lerna publish from-package --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": ">=10",
+    "lerna": "^4.0.0",
+    "standard-version": ">=9"
+  },
+  "commitlint": {
+    "extends": [
+      "@feryardiant/commitlint-config"
+    ]
+  },
+  "standard-version": {}
+}
