@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - packages/*/package.json
+
+jobs:
+  npm-package:
+    name: NPM Package
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Node.JS
+      uses: actions/setup-node@v2
+      with:
+        registry-url: 'https://npm.pkg.github.com'
+
+    - name: Publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: npm run publish:packages
+

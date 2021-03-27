@@ -29,5 +29,6 @@
   "devDependencies": {
     "@commitlint/cli": ">=10.0",
     "standard-version": ">=9.0"
-  }
+  },
+  "gitHead": "332c2cf9f84cb6407e3ffaf464c714b843d2e8d7"
 }

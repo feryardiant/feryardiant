@@ -3,7 +3,7 @@
   "private": true,
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "scripts": {
-    "release": "standard-version -s"
+    "publish:packages": "lerna publish from-package --ignore-scripts"
   },
   "engines": {
     "node": ">=10"
@@ -20,9 +20,6 @@
     "extends": [
       "@feryardiant/commitlint-config"
     ]
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
   },
   "standard-version": {}
 }

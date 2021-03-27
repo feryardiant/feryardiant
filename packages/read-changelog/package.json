@@ -34,5 +34,6 @@
       "@feryardiant/commitlint-config"
     ]
   },
-  "standard-version": {}
+  "standard-version": {},
+  "gitHead": "332c2cf9f84cb6407e3ffaf464c714b843d2e8d7"
 }
