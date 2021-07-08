@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/commitlint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My personal commitlint config based on @commitlint/config-conventional",
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "commitlint.config.js"
   ],
   "scripts": {
-    "release": "standard-version -s"
+    "release": "standard-version --skip.tag"
   },
   "dependencies": {
     "@commitlint/config-conventional": ">=10.0"
