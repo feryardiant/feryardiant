@@ -21,8 +21,13 @@ jobs:
       with:
         registry-url: 'https://npm.pkg.github.com'
 
-    - name: Publish
+    - name: Publish to GitHub
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: yarn publish:packages -y
+      run: yarn publish:packages -y --registry 'https://npm.pkg.github.com'
+
+    - name: Publish to NPM
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: yarn publish:packages -y --registry 'https://registry.npmjs.org'
 
