@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/read-changelog",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Fetch latest release note from CHANGELOG.md file",
   "repository": {
     "type": "git",
