@@ -2,6 +2,10 @@
   "command": {
     "create": {
       "license": "MIT"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): Publish"
     }
   },
   "npmClient": "yarn",

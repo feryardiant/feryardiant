@@ -31,5 +31,5 @@
     "@commitlint/cli": ">=10.0",
     "standard-version": ">=9.0"
   },
-  "gitHead": "332c2cf9f84cb6407e3ffaf464c714b843d2e8d7"
+  "gitHead": "d5929f8d914a9ad93562b99b149ea686905f860c"
 }
