@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.1 (2021-07-08)
+
 ### [0.1.12](https://github.com/feryardiant/read-changelog/compare/v0.1.11...v0.1.12) (2021-03-09)
 
 

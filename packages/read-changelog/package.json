@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/read-changelog",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fetch latest release note from CHANGELOG.md file",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "index.js"
   ],
   "scripts": {
-    "release": "standard-version -s"
+    "release": "standard-version --skip.tag"
   },
   "devDependencies": {
     "@commitlint/cli": ">=10",
