@@ -2,14 +2,9 @@
   "command": {
     "create": {
       "license": "MIT"
-    },
-    "publish": {
-      "bump": "patch",
-      "conventionalCommits": true,
-      "message": "chore(release): Publish",
-      "registry": "https://npm.pkg.github.com"
     }
   },
+  "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent"
 }
