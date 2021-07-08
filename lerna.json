@@ -10,9 +10,6 @@
       "registry": "https://npm.pkg.github.com"
     }
   },
-  "packages": [
-    "packages/*"
-  ],
   "useWorkspaces": true,
   "version": "independent"
 }
