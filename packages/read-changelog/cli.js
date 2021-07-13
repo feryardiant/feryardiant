@@ -4,14 +4,14 @@ const { readFileSync } = require('fs')
 const { resolve } = require('path')
 
 process.on('unhandledRejection', (err) => {
-	console.error('Unhandled Rejection:', err.message)
-	process.exit(1)
+  console.error('Unhandled Rejection:', err.message)
+  process.exit(1)
 })
 
 try {
   const changelogFile = readFileSync(resolve(process.cwd(), 'CHANGELOG.md'))
 
-  require('./index')(changelogFile.toString()).catch(err => {
+  require('./index')(changelogFile.toString()).catch((err) => {
     throw err
   })
 } catch (e) {
