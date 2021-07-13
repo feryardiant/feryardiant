@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "@commitlint/cli": ">=10.0",
-    "@feryardiant/eslilnt-config-standard": "*"
+    "@feryardiant/eslilnt-config-standard": "~0.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": ">=10.0",

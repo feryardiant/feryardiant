@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": ">=10",
-    "@feryardiant/eslilnt-config-standard": "*",
+    "@feryardiant/eslilnt-config-standard": "~0.0.1",
     "@feryardiant/commitlint-config": "~0.1.0",
     "standard-version": "^9.0"
   },
