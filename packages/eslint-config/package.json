@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/eslint-config-standard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My personal commitlint config based on eslint-config-standard and eslint-config-prettier",
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "license": "MIT",
