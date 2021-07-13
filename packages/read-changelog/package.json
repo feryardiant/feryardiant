@@ -23,10 +23,13 @@
     "index.js"
   ],
   "scripts": {
-    "release": "standard-version --skip.tag"
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix *.js",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": ">=10",
+    "@feryardiant/eslilnt-config-standard": "*",
     "@feryardiant/commitlint-config": "~0.1.0",
     "standard-version": "^9.0"
   },
@@ -35,6 +38,13 @@
       "@feryardiant/commitlint-config"
     ]
   },
-  "standard-version": {},
+  "eslintConfig": {
+    "extends": "@feryardiant/standard"
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  },
   "gitHead": "d5929f8d914a9ad93562b99b149ea686905f860c"
 }
