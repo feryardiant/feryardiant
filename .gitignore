@@ -23,7 +23,6 @@ nbproject
 # Developments
 # --------------------------
 node_modules
-yarn.lock
 
 # But Keep these
 # --------------------------
