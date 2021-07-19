@@ -14,12 +14,11 @@
     "access": "public"
   },
   "files": [
-    ".eslintrc.js",
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint *.js",
-    "lint:fix": "eslint --fix *.js",
+    "lint": "eslint . --config=index.js",
+    "lint:fix": "eslint --fix . --config=index.js",
     "release": "standard-version"
   },
   "dependencies": {
@@ -29,16 +28,14 @@
     "eslint-plugin-node": "~11.1",
     "eslint-plugin-prettier": "~3.4",
     "eslint-plugin-promise": "~5.1",
-    "prettier-config-standard": "~4.0",
+    "eslint-plugin-vue": "^7.14.0",
     "standard-version": "^9.0"
   },
   "devDependencies": {
-    "eslint": "~7.30",
-    "prettier": "~2.3"
+    "eslint": "~7.30"
   },
   "peerDependencies": {
-    "eslint": "~7.30",
-    "prettier": "~2.3"
+    "eslint": "^7.0"
   },
   "standard-version": {
     "skip": {
