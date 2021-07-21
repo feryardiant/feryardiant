@@ -24,6 +24,10 @@ module.exports = {
     },
   },
   rules: {
+    'import/order': 'error',
+    'import/first': 'error',
+    'import/no-unresolved': 'off',
+    'import/no-absolute-path': 'off',
     'no-unused-vars': 'off',
     'one-var': 'off'
   },
