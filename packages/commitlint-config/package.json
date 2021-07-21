@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/feryardiant/feryardiant/issues"
   },
-  "homepage": "https://github.com/feryardiant/feryardiant#readme",
+  "homepage": "https://github.com/feryardiant/feryardiant/tree/master/packages/commitlint-config#readme",
   "readme": "https://github.com/feryardiant/feryardiant/tree/master/packages/commitlint-config#readme",
   "main": "commitlint.config.js",
   "files": [
@@ -27,15 +27,15 @@
     "@commitlint/config-conventional": ">=10.0"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=10.0",
-    "@feryardiant/eslint-config-standard": "~0.0.1"
+    "@commitlint/cli": ">=10.0"
   },
   "devDependencies": {
     "@commitlint/cli": ">=10.0",
+    "@feryardiant/eslint-config": "*",
     "standard-version": ">=9.0"
   },
   "eslintConfig": {
-    "extends": "@feryardiant/standard"
+    "extends": ["@feryardiant"]
   },
   "standard-version": {
     "skip": {
