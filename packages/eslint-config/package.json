@@ -1,7 +1,7 @@
 {
-  "name": "@feryardiant/eslint-config-standard",
-  "version": "0.0.3",
-  "description": "My personal commitlint config based on eslint-config-standard and eslint-config-prettier",
+  "name": "@feryardiant/eslint-config",
+  "version": "0.0.0",
+  "description": "My personal eslint config based on eslint-config-standard and eslint-config-prettier",
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -22,20 +22,21 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "eslint-config-prettier": "~8.3",
-    "eslint-config-standard": "~16.0",
-    "eslint-plugin-import": "~2.23",
-    "eslint-plugin-node": "~11.1",
-    "eslint-plugin-prettier": "~3.4",
-    "eslint-plugin-promise": "~5.1",
-    "eslint-plugin-vue": "^7.14.0",
+    "eslint-config-prettier": "^8.3",
+    "eslint-config-standard": "^16.0",
+    "eslint-plugin-import": "^2.23",
+    "eslint-plugin-node": "^11.1",
+    "eslint-plugin-prettier": "^3.4",
+    "eslint-plugin-promise": "^5.1",
     "standard-version": "^9.0"
   },
   "devDependencies": {
-    "eslint": "~7.30"
+    "eslint": "^7.30",
+    "prettier": "^2.3"
   },
   "peerDependencies": {
-    "eslint": "^7.0"
+    "eslint": "^7.0",
+    "prettier": "^2.0"
   },
   "standard-version": {
     "skip": {

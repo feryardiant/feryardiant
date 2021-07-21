@@ -1,19 +1,34 @@
 module.exports = {
-  extends: ['standard', 'prettier'],
+  extends: [
+    'standard',
+    'prettier',
+    'plugin:import/recommended'
+  ],
   plugins: ['prettier'],
-  ignorePatterns: ['dist/', 'node_modules/', 'tests/', '**.old', '**.cjs', '**.mjs'],
+  ignorePatterns: ['dist/', 'node_modules/', 'tests/', '*.old', '*.cjs'],
   env: {
     es6: true,
     browser: true,
-    node: true
+    node: true,
+  },
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+    },
   },
   rules: {
-    'no-unused-vars': 0,
-    'one-var': 0
+    'no-unused-vars': 'off',
+    'one-var': 'off'
   },
   overrides: [
     {
-      files: ['*.spec.js'],
+      files: ['*.cjs'],
+      env: {
+        commonjs: true
+      }
+    },
+    {
+      files: ['*.spec.js', '*.test.js', '*.spec.mjs', '*.test.mjs'],
       env: {
         mocha: true
       }
