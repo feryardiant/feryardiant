@@ -11,6 +11,13 @@ module.exports = {
     browser: true,
     node: true,
   },
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
+    ecmaFeatures: {
+      impliedStrict: true
+    }
+  },
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
