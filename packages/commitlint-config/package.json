@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/commitlint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "My personal commitlint config based on @commitlint/config-conventional",
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "license": "MIT",
@@ -35,7 +35,9 @@
     "standard-version": ">=9.0"
   },
   "eslintConfig": {
-    "extends": ["@feryardiant"]
+    "extends": [
+      "@feryardiant"
+    ]
   },
   "standard-version": {
     "skip": {
