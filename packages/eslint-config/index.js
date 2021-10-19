@@ -20,7 +20,7 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+      node: { extensions: ['.js', '.cjs', '.mjs', '.ts', '.d.ts'] },
     },
   },
   rules: {
