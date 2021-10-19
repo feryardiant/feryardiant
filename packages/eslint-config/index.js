@@ -41,7 +41,8 @@ module.exports = {
     {
       files: ['*.spec.js', '*.test.js', '*.spec.mjs', '*.test.mjs'],
       env: {
-        mocha: true
+        mocha: true,
+        jest: true
       }
     }
   ]
