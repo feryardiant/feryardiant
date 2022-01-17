@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 0.2.0 (2022-01-17)
+
+
+### Features
+
+* **commitlint:** add type-enum rule ([1863d7a](https://github.com/feryardiant/feryardiant/commit/1863d7af57214ce0216c6e3e0add209443a3f36e))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

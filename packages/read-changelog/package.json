@@ -1,6 +1,6 @@
 {
   "name": "@feryardiant/read-changelog",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Fetch latest release note from CHANGELOG.md file",
   "repository": {
     "type": "git",
@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": ">=10",
-    "@feryardiant/eslint-config": "*",
-    "@feryardiant/commitlint-config": "*",
+    "@feryardiant/commitlint-config": "^0.2.0",
+    "@feryardiant/eslint-config": "^0.1.0",
     "standard-version": "^9.0"
   },
   "commitlint": {
