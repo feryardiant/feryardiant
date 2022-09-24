@@ -15,8 +15,8 @@
   ],
   "devDependencies": {
     "@commitlint/cli": ">=10",
-    "eslint": "^7.30",
-    "lerna": "^4.0.0",
+    "eslint": "^8.0",
+    "lerna": "^5.0.0",
     "prettier": "^2.3",
     "standard-version": ">=9"
   },
