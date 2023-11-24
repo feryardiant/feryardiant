@@ -3,8 +3,8 @@
   "private": true,
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
   "scripts": {
-    "lint": "yarn workspaces run lint",
-    "lint:fix": "yarn workspaces run lint:fix",
+    "lint": "pnpm workspaces run lint",
+    "lint:fix": "pnpm workspaces run lint:fix",
     "publish:packages": "lerna publish from-package --ignore-scripts"
   },
   "devDependencies": {

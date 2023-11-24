@@ -24,7 +24,7 @@ jobs:
     - name: Publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: yarn publish:packages -y --registry 'https://npm.pkg.github.com'
+      run: pnpm publish:packages -y --registry 'https://npm.pkg.github.com'
 
   npm:
     name: Publish to NPM
@@ -42,5 +42,5 @@ jobs:
     - name: Publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: yarn publish:packages -y --registry 'https://registry.npmjs.org'
+      run: pnpm publish:packages -y --registry 'https://registry.npmjs.org'
 
