@@ -28,10 +28,10 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "@commitlint/cli": ">=10",
-    "@feryardiant/commitlint-config": "^0.2.0",
-    "@feryardiant/eslint-config": "^0.1.0",
-    "standard-version": "^9.0"
+    "@commitlint/cli": "^18.4.3",
+    "@feryardiant/commitlint-config": "workspace:^",
+    "@feryardiant/eslint-config": "workspace:^",
+    "standard-version": "^9.5.0"
   },
   "commitlint": {
     "extends": [

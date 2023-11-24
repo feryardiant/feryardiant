@@ -24,15 +24,15 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "@commitlint/config-conventional": ">=10.0"
+    "@commitlint/config-conventional": "^18.4.3"
   },
   "peerDependencies": {
     "@commitlint/cli": ">=10.0"
   },
   "devDependencies": {
-    "@commitlint/cli": ">=10.0",
-    "@feryardiant/eslint-config": "^0.1.0",
-    "standard-version": ">=9.0"
+    "@commitlint/cli": "^18.4.3",
+    "@feryardiant/eslint-config": "workspace:^",
+    "standard-version": "^9.5.0"
   },
   "eslintConfig": {
     "extends": [
