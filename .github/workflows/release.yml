@@ -16,10 +16,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
 
-    - name: Setup
+    - name: Setup node
       uses: actions/setup-node@v6
       with:
+        node-version: lts/*
         registry-url: 'https://npm.pkg.github.com'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v6
 
     - name: Publish
       env:
@@ -34,10 +38,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
 
-    - name: Setup
+    - name: Setup node
       uses: actions/setup-node@v6
       with:
+        node-version: lts/*
         registry-url: 'https://registry.npmjs.org'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v6
 
     - name: Publish
       env:
