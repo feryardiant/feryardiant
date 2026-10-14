@@ -2,17 +2,20 @@ version: 2
 
 updates:
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
-      timezone: "Asia/Jakarta"
+      timezone: Asia/Jakarta
+    groups:
+      dependencies:
+        patterns: ['*']
 
   - package-ecosystem: npm
-    directory: "/"
+    directories: [/, /packages/]
     schedule:
       interval: monthly
-      timezone: "Asia/Jakarta"
-    versioning-strategy: lockfile-only
+      timezone: Asia/Jakarta
+    versioning-strategy: increase-if-necessary
     groups:
       dependencies:
         patterns: ['*']
