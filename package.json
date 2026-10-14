@@ -2,27 +2,22 @@
   "name": "@feryardiant/readme",
   "private": true,
   "author": "Fery Wardiyanto <ferywardiyanto@gmail.com>",
-  "packageManager": "pnpm@11.1.0",
+  "packageManager": "pnpm@12.2.1",
   "scripts": {
-    "lint": "pnpm workspaces run lint",
-    "lint:fix": "pnpm workspaces run lint:fix",
-    "publish:packages": "lerna publish from-package --ignore-scripts"
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
-    "eslint": "^10.12.0",
-    "lerna": "^10.1.0",
-    "prettier": "^3.9.10",
-    "standard-version": "^9.5.0"
+    "@commitlint/config-conventional": "^21.2.3",
+    "simple-git-hooks": "2.14.0"
   },
   "commitlint": {
     "extends": [
-      "@feryardiant/commitlint-config"
+      "@commitlint/config-conventional"
     ]
   },
-  "eslintConfig": {
-    "extends": "@feryardiant"
-  },
-  "prettier": "prettier-config-standard",
-  "standard-version": {}
+  "commit-and-tag-version": {},
+  "simple-git-hooks": {
+    "commit-msg": "pnpm exec commitlint --edit $1"
+  }
 }

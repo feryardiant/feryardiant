@@ -2,28 +2,54 @@
 # --------------------------
 Thumbs.db
 Desktop.ini
+.DS_Store
 .directory
-*.cache
-*.old
+._*
+*.DS_Store
+*.gz
 *.log
-*.tmp
+*.old
 *.zip
-._
+
+# Backup, Cache and Temporary
+.cache
 *~
+*.bak*
+*.cache
+*.swp
+
+# AI Agents
+# --------------------------
+.agents
+.antigravitycli
+.gemini
+.opencode
+conductor
+AGENTS.md
+GEMINI.md
+opencode.json
 
 # IDE Project Configurations
 # --------------------------
-nbproject
 .idea
-.settings
-.vscode
 .project
+.settings
 *.sublime-*
 
-# Developments
+# Development files
 # --------------------------
+.env.*
+.env
 node_modules
+
+# Node.js lock files
+.pnpm-store
+bun.lock
+package-lock.json
+yarn.lock
 
 # But Keep these
 # --------------------------
+!.env.example
+!.env.*.example
 !.gitkeep
