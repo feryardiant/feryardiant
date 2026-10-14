@@ -9,9 +9,9 @@
     "publish:packages": "lerna publish from-package --ignore-scripts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
-    "eslint": "^8.57.1",
-    "lerna": "^8.2.4",
+    "@commitlint/cli": "^21.2.3",
+    "eslint": "^10.12.0",
+    "lerna": "^10.1.0",
     "prettier": "^3.9.10",
     "standard-version": "^9.5.0"
   },
